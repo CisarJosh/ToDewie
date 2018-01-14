@@ -33,7 +33,14 @@
                             <outlet property="delegate" destination="wnQ-gK-0aC" id="Fz8-J0-NxL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ToDewie" id="pc8-cN-xUm"/>
+                    <navigationItem key="navigationItem" title="ToDewie" id="pc8-cN-xUm">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="fAS-MS-zgz">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="wnQ-gK-0aC" id="1OD-mU-hhs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XbZ-ye-Vt0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
