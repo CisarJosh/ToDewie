@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88D0F71DDBE388D3690FD375 /* Pods_ToDewie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04716B99FAC7AA7A5B0021 /* Pods_ToDewie.framework */; };
+		8E85DBB4EBB6DECD76B6E6BC /* Pods_ToDewieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF04D5354155F1719FA786B /* Pods_ToDewieTests.framework */; };
 		AC018D36200C6C170088D253 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC018D34200C6C170088D253 /* DataModel.xcdatamodeld */; };
 		AC018D592010191F0088D253 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC018D582010191F0088D253 /* CategoryViewController.swift */; };
 		ACB460762009626D0095ED43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB460752009626D0095ED43 /* AppDelegate.swift */; };
@@ -16,6 +18,7 @@
 		ACB460802009626E0095ED43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB4607E2009626E0095ED43 /* LaunchScreen.storyboard */; };
 		ACB4608B2009626E0095ED43 /* ToDewieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB4608A2009626E0095ED43 /* ToDewieTests.swift */; };
 		ACB460962009626E0095ED43 /* ToDewieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB460952009626E0095ED43 /* ToDewieUITests.swift */; };
+		DC6586B2A22E901894B4156C /* Pods_ToDewieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D990D83CD103F34D1629A4 /* Pods_ToDewieUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A04716B99FAC7AA7A5B0021 /* Pods_ToDewie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDewie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C716D2F862C8F5C8D45808F /* Pods-ToDewieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDewieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDewieTests/Pods-ToDewieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		644DE7B00CF6DCCDF065B208 /* Pods-ToDewie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDewie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDewie/Pods-ToDewie.debug.xcconfig"; sourceTree = "<group>"; };
+		64E9FD69D4E56A9A40A16621 /* Pods-ToDewieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDewieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDewieTests/Pods-ToDewieTests.release.xcconfig"; sourceTree = "<group>"; };
+		65D990D83CD103F34D1629A4 /* Pods_ToDewieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDewieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7BB01705B50535853886AE /* Pods-ToDewie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDewie.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDewie/Pods-ToDewie.release.xcconfig"; sourceTree = "<group>"; };
+		93E7260B455E80127DAF1BC1 /* Pods-ToDewieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDewieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDewieUITests/Pods-ToDewieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A769AAD6AF5546FC2052567 /* Pods-ToDewieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDewieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDewieUITests/Pods-ToDewieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC018D35200C6C170088D253 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		AC018D582010191F0088D253 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		ACB460722009626D0095ED43 /* ToDewie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDewie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +62,7 @@
 		ACB460912009626E0095ED43 /* ToDewieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDewieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB460952009626E0095ED43 /* ToDewieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDewieUITests.swift; sourceTree = "<group>"; };
 		ACB460972009626E0095ED43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF04D5354155F1719FA786B /* Pods_ToDewieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDewieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D0F71DDBE388D3690FD375 /* Pods_ToDewie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E85DBB4EBB6DECD76B6E6BC /* Pods_ToDewieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6586B2A22E901894B4156C /* Pods_ToDewieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9411DF5AE71E739A762CCC05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				644DE7B00CF6DCCDF065B208 /* Pods-ToDewie.debug.xcconfig */,
+				6E7BB01705B50535853886AE /* Pods-ToDewie.release.xcconfig */,
+				1C716D2F862C8F5C8D45808F /* Pods-ToDewieTests.debug.xcconfig */,
+				64E9FD69D4E56A9A40A16621 /* Pods-ToDewieTests.release.xcconfig */,
+				9A769AAD6AF5546FC2052567 /* Pods-ToDewieUITests.debug.xcconfig */,
+				93E7260B455E80127DAF1BC1 /* Pods-ToDewieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC018D30200C2D0A0088D253 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +147,8 @@
 				ACB460892009626E0095ED43 /* ToDewieTests */,
 				ACB460942009626E0095ED43 /* ToDewieUITests */,
 				ACB460732009626D0095ED43 /* Products */,
+				9411DF5AE71E739A762CCC05 /* Pods */,
+				D119389083234204771DF0DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +193,16 @@
 			path = ToDewieUITests;
 			sourceTree = "<group>";
 		};
+		D119389083234204771DF0DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A04716B99FAC7AA7A5B0021 /* Pods_ToDewie.framework */,
+				ADF04D5354155F1719FA786B /* Pods_ToDewieTests.framework */,
+				65D990D83CD103F34D1629A4 /* Pods_ToDewieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACB4609A2009626E0095ED43 /* Build configuration list for PBXNativeTarget "ToDewie" */;
 			buildPhases = (
+				71A522919FA654DEB8D03AAB /* [CP] Check Pods Manifest.lock */,
 				ACB4606E2009626D0095ED43 /* Sources */,
 				ACB4606F2009626D0095ED43 /* Frameworks */,
 				ACB460702009626D0095ED43 /* Resources */,
+				C6E025B9B9C500F283D0493C /* [CP] Embed Pods Frameworks */,
+				D6BC9EF2C97B98CC364E39FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACB4609D2009626E0095ED43 /* Build configuration list for PBXNativeTarget "ToDewieTests" */;
 			buildPhases = (
+				A3F42815B816A08354326FC8 /* [CP] Check Pods Manifest.lock */,
 				ACB460822009626E0095ED43 /* Sources */,
 				ACB460832009626E0095ED43 /* Frameworks */,
 				ACB460842009626E0095ED43 /* Resources */,
+				7422FD5D33E23AF19E041E8E /* [CP] Embed Pods Frameworks */,
+				4728CEEC69BD9F7FC81261E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACB460A02009626E0095ED43 /* Build configuration list for PBXNativeTarget "ToDewieUITests" */;
 			buildPhases = (
+				7107B5621EE0BF1344DFFD32 /* [CP] Check Pods Manifest.lock */,
 				ACB4608D2009626E0095ED43 /* Sources */,
 				ACB4608E2009626E0095ED43 /* Frameworks */,
 				ACB4608F2009626E0095ED43 /* Resources */,
+				8CA30AB472ADAEAA9969F88A /* [CP] Embed Pods Frameworks */,
+				07A1D9DD83960B605FBED5ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +340,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A1D9DD83960B605FBED5ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDewieUITests/Pods-ToDewieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4728CEEC69BD9F7FC81261E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDewieTests/Pods-ToDewieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7107B5621EE0BF1344DFFD32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDewieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A522919FA654DEB8D03AAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDewie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7422FD5D33E23AF19E041E8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDewieTests/Pods-ToDewieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CA30AB472ADAEAA9969F88A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDewieUITests/Pods-ToDewieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F42815B816A08354326FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDewieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E025B9B9C500F283D0493C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ToDewie/Pods-ToDewie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDewie/Pods-ToDewie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BC9EF2C97B98CC364E39FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDewie/Pods-ToDewie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACB4606E2009626D0095ED43 /* Sources */ = {
@@ -464,6 +665,7 @@
 		};
 		ACB4609B2009626E0095ED43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644DE7B00CF6DCCDF065B208 /* Pods-ToDewie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +681,7 @@
 		};
 		ACB4609C2009626E0095ED43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7BB01705B50535853886AE /* Pods-ToDewie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +697,7 @@
 		};
 		ACB4609E2009626E0095ED43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C716D2F862C8F5C8D45808F /* Pods-ToDewieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +715,7 @@
 		};
 		ACB4609F2009626E0095ED43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E9FD69D4E56A9A40A16621 /* Pods-ToDewieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +733,7 @@
 		};
 		ACB460A12009626E0095ED43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A769AAD6AF5546FC2052567 /* Pods-ToDewieUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +750,7 @@
 		};
 		ACB460A22009626E0095ED43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E7260B455E80127DAF1BC1 /* Pods-ToDewieUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
