@@ -57,20 +57,16 @@ class CategoryViewController: UITableViewController {
     //    MARK: - TableView Delegate Methods
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(categoryArray[indexPath.row])
-        
-        
-        //        context.delete(itemArray[indexPath.row])
-        //        context.delete() must be called first
-        //        itemArray.remove(at: indexPath.row)
-        
-        //        categoryArray[indexPath.row].done = !categoryArray[indexPath.row].done
-        
-//        saveItems()
-        //        You have to .save() in order to Create Update or Destroy data.
-        //        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "goToItems", sender: self)
         
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! ToDoListViewController
+        
+        if let indexPath = tableView.indexPathForSelectedRow {
+            destinationVC.selectedCategory = categoryArray[indexPath.row]
+        }
+    }
     //    MARK: - Data Manipulation Methods
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
@@ -79,7 +75,7 @@ class CategoryViewController: UITableViewController {
             
             let alert = UIAlertController(title: "Add new ToDoweie Category", message: "", preferredStyle: .alert)
             
-            let action = UIAlertAction(title: "Add Category", style: .default) { (action) in
+            let action = UIAlertAction(title: "Add", style: .default) { (action) in
                 //      What happens when user presses add button
                 
                 
@@ -92,13 +88,15 @@ class CategoryViewController: UITableViewController {
                 
                 self.saveItems()
                 
-            }
+        }
             alert.addAction(action)
             
             alert.addTextField { (alertTextField) in
                 alertTextField.placeholder = "Add a new Category"
                 textField = alertTextField
-            }
+                
+                
+        }
             
             present(alert, animated: true, completion: nil)
         
